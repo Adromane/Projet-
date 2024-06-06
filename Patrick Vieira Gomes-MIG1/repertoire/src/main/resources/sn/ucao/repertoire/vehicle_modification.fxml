@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="512.0" prefWidth="548.0" style="-fx-background-color: BURLYWOOD;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sn.ucao.repertoire.VehicleModificationController">
+   <children>
+      <Button fx:id="saveButton" layoutX="229.0" layoutY="455.0" onAction="#saveClick" prefHeight="25.0" prefWidth="90.0" style="-fx-background-color: white;" text="Modifier">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+
+      <TextField fx:id="typeTfd" layoutX="95.0" layoutY="396.0" prefHeight="33.0" prefWidth="358.0" promptText=" Type de transmission" />
+      <TextField fx:id="couleurTfd" layoutX="95.0" layoutY="324.0" prefHeight="33.0" prefWidth="358.0" promptText="Couleur" />
+      <TextField fx:id="modelTfd" layoutX="95.0" layoutY="254.0" prefHeight="33.0" prefWidth="358.0" promptText="Model" />
+      <TextField fx:id="marqueTfd" layoutX="95.0" layoutY="182.0" prefHeight="33.0" prefWidth="358.0" promptText="Marque" />
+      <TextField fx:id="matTfd" layoutX="95.0" layoutY="105.0" prefHeight="33.0" prefWidth="358.0" promptText="Matricule" />
+      <Label layoutX="95.0" layoutY="88.0" text="Matricule" textFill="WHITE" />
+      <Label layoutX="95.0" layoutY="165.0" text="Marque" textFill="WHITE" />
+      <Label layoutX="95.0" layoutY="237.0" text="Model" textFill="WHITE" />
+      <Label layoutX="95.0" layoutY="307.0" text="Couleur" textFill="WHITE" />
+      <Label layoutX="95.0" layoutY="379.0" text="Type de transmission" textFill="WHITE" />
+      <Text fill="WHITE" layoutX="95.0" layoutY="65.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Modifier le vehivule" textAlignment="CENTER" wrappingWidth="358.0">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Text>
+      <Button layoutX="510.0" layoutY="14.0" mnemonicParsing="false" onAction="#cancelClick" style="-fx-background-color: white;" text="X" textFill="#dd1515" />
+   </children>
+</AnchorPane>
